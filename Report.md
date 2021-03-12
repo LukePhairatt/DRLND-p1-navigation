@@ -51,11 +51,13 @@ hidden layer: [64, 64]
 output layer: [64, action_size]   
 ```
 
-### Plot of Rewards  
+### Plot of Rewards    
+Add resize images
 
 [//]: # (Image References)
 
 [image10]: ./images/resize.png "Resized image"
+
 
 
 ### Future Improvements
