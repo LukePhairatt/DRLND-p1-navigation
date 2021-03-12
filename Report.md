@@ -41,7 +41,7 @@ where
 ```
 Fixed Q_target update is done by a soft-update with a TAU factor `line 118-129 in dqn_agent.py`.  
 
-**Q Network**
+**Q Network**  
 The network is defined in `model.py`. It has 3 fully connected layers with RELU activation (input and hidden layer).  
 By default, it has input and output of each layer as follows.  
 
@@ -60,13 +60,8 @@ Double DQN might not out perform normal DQN is some environment. There are a few
 **Prioritized Experience Replay** or **a combination of these approaches** have been shown with an improvement toward  
 a stability of learning. The brief ideas for the future improvement of these approaches are as follows.
 
-With the problem of uniformly sampling experiences from a reply memory regardless of their significance,   
-some rare important experiences may not be picked as frequently as we hope. `Prioritized Experience Replay` addresses this issue by prioritizing  
-the experience transition in the replay memory. The more important experience the agent can learn from more effectively (e.g. bigger TD error)  
-the higher priority for sampling will be assigned.   
+With the problem of uniformly sampling experiences from a reply memory regardless of their significance, some rare important experiences may not be picked as frequently as we hope. `Prioritized Experience Replay` addresses this issue by prioritizing the experience transition in the replay memory. The more important experience the agent can learn from more effectively (e.g. bigger TD error) the higher priority for sampling will be assigned.   
  
-`Dueling DQN` focuses on the improvement of Q-values estimation. The core idea is to use 2 streams of branched-off DQN to estimate 1. state values- V(s) and 2. Advantage values (A(s, a)).  
-The value function V(s) indicates a reward on a given state. And the advantage function A(s, a) indicates an advantage one action over the other actions on a given state.   
-These 2 values are then combined to estimate the better Q-values.  
+`Dueling DQN` focuses on the improvement of Q-values estimation. The core idea is to use 2 streams of branched-off DQN to estimate 1. state values- V(s) and 2. Advantage values (A(s, a)). The value function V(s) indicates a reward on a given state. And the advantage function A(s, a) indicates an advantage one action over the other actions on a given state. These 2 values are then combined to estimate the better Q-values.  
 
 
