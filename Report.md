@@ -52,12 +52,9 @@ output layer: [64, action_size]
 ```
 
 ### Plot of Rewards    
-Add resize images
 
-[//]: # (Image References)
+**DQN Scores**  
 ![DQN_scores](/images/DQN_scores.png "DQN Scores")
-![double_DQN_scores](/images/double_DQN_scores.png "double DQN scores")
-
 
 
 ### Future Improvements
