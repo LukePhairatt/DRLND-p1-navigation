@@ -45,7 +45,11 @@ Follow the instructions in `Navigation.ipynb` to get started with training your 
 Further information regarding to the implementation can be found in [Report.md](./Report.md)   
 
 [//]: # (Image References)
+![ScreenShot1](/images/resize.png)
+![ScreenShot2](/images/resize.png)
 
-[image10]: ./images/resize.png "Resized image"
+
+
+
 
 
