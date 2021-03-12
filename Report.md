@@ -55,8 +55,7 @@ output layer: [64, action_size]
 
 [//]: # (Image References)
 
-[DQN_score]: ./images/DQN_scores.png "DQN scores"    
-[double_DQN_score]: ./images/double_DQN_scores.png "double DQN scores"  
+[image10]: ./images/resize.png "Resized image"
 
 
 ### Future Improvements
