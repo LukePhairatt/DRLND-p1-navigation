@@ -44,4 +44,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
 Further information regarding to the implementation can be found in [Report.md](./Report.md)   
 
+[//]: # (Image References)
+
+[image10]: ./images/resize.png "Resized image"
+
 
