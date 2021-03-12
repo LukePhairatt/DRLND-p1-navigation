@@ -55,8 +55,8 @@ output layer: [64, action_size]
 Add resize images
 
 [//]: # (Image References)
-
-[image10]: ./images/resize.png "Resized image"
+![ScreenShot1](/images/resize.png)
+![ScreenShot2](/images/resize.png)
 
 
 
