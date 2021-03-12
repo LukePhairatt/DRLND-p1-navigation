@@ -55,8 +55,8 @@ output layer: [64, action_size]
 Add resize images
 
 [//]: # (Image References)
-![ScreenShot1](/images/resize.png)
-![ScreenShot2](/images/resize.png)
+![DQN_scores](/images/DQN_scores.png "DQN Scores")
+![double_DQN_scores](/images/double_DQN_scores.png "double DQN scores")
 
 
 
