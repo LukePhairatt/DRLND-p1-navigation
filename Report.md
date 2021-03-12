@@ -52,6 +52,8 @@ output layer: [64, action_size]
 ```
 
 ### Plot of Rewards
+
+[//]: # (Image References)
 [DQN_score]: ./images/DQN_Scores.png "DQN scores"  
 [double_DQN_score]: ./images/double_DQN_Scores.png "double DQN scores"
 
