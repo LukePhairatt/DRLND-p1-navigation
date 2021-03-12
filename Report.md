@@ -53,8 +53,8 @@ output layer: [64, action_size]
 
 ### Plot of Rewards
 
-![DQN_score](./images/DQN_Scores.png) 
-![double_DQN_score](./images/double_DQN_Scores.png)
+[DQN_score]: /images/DQN_Scores.png "DQN scores"    
+[double_DQN_score]: /images/double_DQN_Scores.png "double DQN scores"  
 
 ### Future Improvements
 Double DQN might not out perform normal DQN is some environment. There are a few approaches such as **Dueling DQN**, and   
