@@ -66,7 +66,7 @@ Episode 504	Average Score: 13.00
 Environment solved in 504 episodes!	Average Score: 13.00
 ```
 
-**Double DQN Scores**
+**Double DQN Scores**  
 ![double_DQN_scores](/images/double_DQN_scores.png)  
 ```
 Episode 100	Average Score: 0.96
