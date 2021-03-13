@@ -54,9 +54,28 @@ output layer: [64, action_size]
 ### Plot of Rewards    
 
 **DQN Scores**  
-![DQN_scores](/images/DQN_scores.png "DQN Scores")
+![DQN_scores](/images/DQN_scores.png)  
+
+```
+Episode 100	Average Score: 0.08
+Episode 200	Average Score: 2.04
+Episode 300	Average Score: 5.38
+Episode 400	Average Score: 8.57
+Episode 500	Average Score: 12.80
+Episode 504	Average Score: 13.00
+Environment solved in 504 episodes!	Average Score: 13.00
+```
 
 
+![double_DQN_scores](/images/double_DQN_scores.png)  
+```
+Episode 100	Average Score: 0.96
+Episode 200	Average Score: 4.24
+Episode 300	Average Score: 7.54
+Episode 400	Average Score: 10.69
+Episode 482	Average Score: 13.05
+Environment solved in 482 episodes!	Average Score: 13.05
+```
 ### Future Improvements
 Double DQN might not out perform normal DQN is some environment. There are a few approaches such as **Dueling DQN**, and   
 **Prioritized Experience Replay** or **a combination of these approaches** have been shown with an improvement toward  
