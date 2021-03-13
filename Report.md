@@ -46,8 +46,8 @@ The network is defined in `model.py`. It has 3 fully connected layers with RELU 
 By default, it has input and output of each layer as follows.  
 
 ```
-input layer:  [state_size, 64]  
-hidden layer: [64, 64]  
+input layer:  [state_size, 128]  
+hidden layer: [128, 64]  
 output layer: [64, action_size]   
 ```
 
